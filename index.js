@@ -14,6 +14,7 @@ const map = [
     ['4', '-', '-', '-', '-', '-', '-', '-', '-', '-', '3']
 ]
 const canvas = document.querySelector('canvas')
+console.log({canvas})
 const c = canvas.getContext('2d')
 const scoreEL = document.querySelector("#score")
 canvas.width = map[0].length*42
